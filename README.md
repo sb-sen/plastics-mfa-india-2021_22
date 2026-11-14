@@ -51,8 +51,6 @@ Sen, S. B., Naikan, V. N. A. and Yadav, V. (Manuscript under review at Waste Man
 
 and this repository: [DOI to be added].
 
-Please cite the article (details to be added if accepted) and this repository (see `CITATION.cff`).
-
 ## License
 
 See the `LICENSE` file.
