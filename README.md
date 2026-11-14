@@ -45,6 +45,12 @@ Random numbers come from `numpy.random.default\\\_rng` with fixed seeds (42 for 
 
 ## Citation
 
+If you use this code, please cite the article:
+
+Sen, S. B., Naikan, V. N. A. and Yadav, V. (Manuscript under review at Waste Management & Research). Circularity assessment of municipal plastics waste in India using probabilistic material flow analysis. Waste Management & Research. [DOI to be added]
+
+and this repository: [DOI to be added].
+
 Please cite the article (details to be added if accepted) and this repository (see `CITATION.cff`).
 
 ## License
