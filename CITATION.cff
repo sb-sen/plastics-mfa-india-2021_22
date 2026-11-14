@@ -1,8 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
-title: "Probabilistic material flow analysis of municipal plastics waste in India"
+title: "Code for: Circularity assessment of municipal plastics waste in India using probabilistic material flow analysis"
 authors:
   - family-names: Sen
     given-names: Satya Brot
+    affiliation: "Vinod Gupta School of Management, Indian Institute of Technology Kharagpur"
+  - family-names: Naikan
+    given-names: V. N. Achutha
+    affiliation: "Department of Industrial and Systems Engineering, Subir Chowdhury School of Quality and Reliability, Indian Institute of Technology Kharagpur"
+  - family-names: Yadav
+    given-names: Vinay
     affiliation: "Vinod Gupta School of Management, Indian Institute of Technology Kharagpur"
 license: MIT
