@@ -2,7 +2,9 @@
 
 Vinod Gupta School of Management, Indian Institute of Technology Kharagpur
 
-Code for the circularity assessment of urban plastics waste in India (reference year 2021-22) using probabilistic material flow analysis (MFA), submitted to Waste Management \& Research (manuscript WMR-26-0470).
+Code for the circularity assessment of urban plastics waste in India (reference year 2021-22) using probabilistic material flow analysis (MFA).
+
+This code accompanies a manuscript under review at Waste Management & Research (manuscript WMR-26-0470). It is shared for peer review and may change before publication.
 
 ## What the code does
 
@@ -45,11 +47,7 @@ Random numbers come from `numpy.random.default\\\_rng` with fixed seeds (42 for 
 
 ## Citation
 
-If you use this code, please cite the article:
-
-Sen, S. B., Naikan, V. N. A. and Yadav, V. (Manuscript under review at Waste Management & Research). Circularity assessment of municipal plastics waste in India using probabilistic material flow analysis. Waste Management & Research. [DOI to be added]
-
-and this repository: [DOI to be added].
+The article is under review at Waste Management & Research. Citation details and the repository DOI will be added on acceptance.
 
 ## License
 
