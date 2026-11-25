@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Probabilistic material flow analysis of municipal plastics waste in India"
+authors:
+  - family-names: Sen
+    given-names: Satya Brot
+    affiliation: "Vinod Gupta School of Management, Indian Institute of Technology Kharagpur"
+license: MIT
