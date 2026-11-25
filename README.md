@@ -1,8 +1,8 @@
-# Probabilistic material flow analysis of municipal plastics waste in India
+# Circularity assessment of plastics in municipal solid waste in India using material flow analysis
 
 Vinod Gupta School of Management, Indian Institute of Technology Kharagpur
 
-Model code for the circularity assessment of urban plastics waste in India (reference year 2021-22) using probabilistic material flow analysis (MFA), submitted to Waste Management & Research (manuscript WMR-26-0470). Input data, data-quality scores and all results are documented in the article and its Supplementary Information; this repository contains only the code.
+Model code for the circularity assessment of plastics in municipal solid waste in India (reference year 2021-22) using probabilistic material flow analysis (MFA), submitted to Waste Management & Research (manuscript WMR-26-0470). Input data, data-quality scores and all results are documented in the article and its Supplementary Information; this repository contains the code for the analysis.
 
 ## What the code does
 
@@ -17,7 +17,7 @@ Model code for the circularity assessment of urban plastics waste in India (refe
 | File | Content |
 |---|---|
 | `mfa_model.py` | Data-quality scheme, input ranges, sampling, rank-correlation method, material flow model |
-| `scenarios.py` | Scenario parameters and transformations (prevention, EPR, landfill diversion, combined scenarios) |
+| `scenarios.py` | Scenario parameters (prevention, EPR, landfill diversion, combined scenarios) |
 | `run_analysis.py` | Runs the base and linear-type uncertainty analyses, the dependence tests, the convergence tests and the sensitivity analysis |
 | `run_scenarios.py` | Runs the scenarios with the exponential-type and linear-type ranges |
 | `tests/test_model.py` | Checks the mass balance, the indicators and the reported base-run means |
@@ -33,14 +33,6 @@ pytest
 
 Results (tables and figures) are written to an `outputs/` folder, created when the scripts are run. Use `--out <folder>` to change it, and `--skip-convergence` with `run_analysis.py` to omit the 20-seed and 100,000-iteration runs. The full analysis takes a few seconds on a laptop (a few minutes with the convergence tests).
 
-## Model
-
-Nodes: generation, collected, formal, informal, informal rejects, recycled, reutilised, energy recovery, landfills and dumpsites, and uncollected waste and informal rejects. Landfills and dumpsites are the residual of the formal fractions (1 minus the recycled, energy-related and reutilised fractions).
-
-- CPI = (recycled + reutilised) / urban plastics waste
-- LDS = (landfills and dumpsites + uncollected waste and informal rejects) / urban plastics waste
-
-Energy recovery is included in neither indicator, so CPI + LDS + energy recovery / urban plastics waste = 1.
 
 ## Input parameters
 
