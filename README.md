@@ -38,7 +38,7 @@ Results (tables and figures) are written to an `outputs/` folder, created when t
 
 The modes, data-quality scores and survey ranges are set at the top of `mfa_model.py` and are documented in the Supplementary Information of the article.
 
-## Reproducibility
+## Random seeds and package versions
 
 Random numbers come from `numpy.random.default_rng` with fixed seeds (42 for the base run, 43 for the prevention-rate draws in the scenarios, 1001-1020 for the seed test). The results in the article were produced with the package versions in `requirements.txt`.
 
