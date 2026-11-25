@@ -1,8 +1,16 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite it as below."
-title: "Probabilistic material flow analysis of municipal plastics waste in India"
+type: software
+title: "Circularity assessment of plastics in municipal solid waste in India using material flow analysis: model code"
 authors:
   - family-names: Sen
     given-names: Satya Brot
-    affiliation: "Vinod Gupta School of Management, Indian Institute of Technology Kharagpur"
+    affiliation: "Vinod Gupta School of Management, Indian Institute of Technology Kharagpur, Kharagpur 721302, West Bengal, India"
+  - family-names: Naikan
+    given-names: V. N. Achutha
+    affiliation: "Department of Industrial and Systems Engineering, Subir Chowdhury School of Quality and Reliability, Indian Institute of Technology Kharagpur, Kharagpur 721302, West Bengal, India"
+  - family-names: Yadav
+    given-names: Vinay
+    affiliation: "Vinod Gupta School of Management, Indian Institute of Technology Kharagpur, Kharagpur 721302, West Bengal, India"
+repository-code: "https://github.com/sb-sen/plastics-mfa-india-2021_22"
 license: MIT
